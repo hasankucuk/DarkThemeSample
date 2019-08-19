@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppTheme.DayNight" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.ForceDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">true</item>
+    </style>
+
+
+</resources>
