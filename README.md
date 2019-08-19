@@ -3,14 +3,20 @@
 
 A simple example of Dark Theme.
 
+<img src="https://github.com/hasankucuk/DarkThemeSample/blob/master/art/darkthemegif.gif" width="30%" height="30%">
 
-<img src=""/>
 
 ## Force Dark
 
+<img src="https://github.com/hasankucuk/DarkThemeSample/blob/master/art/white.png" width="30%" height="30%"><img src="https://github.com/hasankucuk/DarkThemeSample/blob/master/art/Screenshot_1566217547.png" width="30%" height="30%">
+
+
 ## Dark Theme
 
+<img src="https://github.com/hasankucuk/DarkThemeSample/blob/master/art/1.png" width="30%" height="30%"><img src="https://github.com/hasankucuk/DarkThemeSample/blob/master/art/2.png" width="30%" height="30%">
+
 ## Elevation
+<img src="https://github.com/hasankucuk/DarkThemeSample/blob/master/art/dark_theme_elevation.gif" width="30%" height="30%">
 
 
 
