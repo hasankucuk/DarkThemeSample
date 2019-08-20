@@ -8,4 +8,5 @@
     <color name="blue">#004c8c</color>
     <color name="orange">#e65100</color>
     <color name="green">#5a9216</color>
+    <color name="float_btn_color">#212121</color>
 </resources>

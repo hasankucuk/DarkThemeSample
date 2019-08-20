@@ -3,17 +3,25 @@
           xmlns:tools="http://schemas.android.com/tools"
           package="com.hasankucuk.darkthemesample">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
             android:name=".App"
-            android:allowBackup="true"
+            android:allowBackup="false"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
+            android:usesCleartextTraffic="true"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme.DayNight"
-            tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ElevationActivity">
-        </activity>
+            tools:ignore="GoogleAppIndexingWarning,HardcodedDebugMode"
+            tools:targetApi="m">
+        <activity
+                android:name=".WebViewActivity"
+                android:label="Mobiler"
+                android:theme="@style/AppTheme.ForceDark"/>
+        <activity android:name=".ElevationActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

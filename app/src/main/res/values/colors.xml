@@ -9,4 +9,5 @@
     <color name="blue">#58a5f0</color>
     <color name="orange">#ff5722</color>
     <color name="green">#bef67a</color>
+    <color name="float_btn_color">#fdd835</color>
 </resources>

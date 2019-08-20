@@ -1,111 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              tools:context=".MainActivity">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                tools:context=".MainActivity">
 
-    <TextView
+    <ScrollView
             android:layout_width="match_parent"
-            android:text="Colors for dark theme"
-            android:textSize="@dimen/unit_20_sp"
-            android:layout_marginTop="@dimen/unit_50_dp"
-            android:layout_marginStart="@dimen/unit_20_dp"
-            android:layout_marginEnd="@dimen/unit_20_dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="match_parent">
 
-    <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
 
-        <ImageView
-                android:layout_width="@dimen/unit_50_dp"
-                android:src="@drawable/bg_blue_circle"
-                android:layout_height="@dimen/unit_50_dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:text="Colors for dark theme"
+                    android:textSize="@dimen/unit_20_sp"
+                    android:layout_marginTop="@dimen/unit_50_dp"
+                    android:layout_marginStart="@dimen/unit_20_dp"
+                    android:layout_marginEnd="@dimen/unit_20_dp"
+                    android:layout_height="wrap_content"/>
 
-        <ImageView
-                android:layout_margin="@dimen/unit_10_dp"
-                android:layout_width="@dimen/unit_50_dp"
-                android:src="@drawable/bg_orange_circle"
-                android:layout_height="@dimen/unit_50_dp"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
 
-        <ImageView
-                android:layout_width="@dimen/unit_50_dp"
-                android:src="@drawable/bg_green_circle"
-                android:layout_height="@dimen/unit_50_dp"/>
-    </LinearLayout>
+                <ImageView
+                        android:layout_width="@dimen/unit_50_dp"
+                        android:src="@drawable/bg_blue_circle"
+                        android:layout_height="@dimen/unit_50_dp"/>
 
-    <TextView
-            android:layout_width="match_parent"
-            android:text="Icons for dark theme"
-            android:textSize="@dimen/unit_20_sp"
-            android:layout_marginTop="@dimen/unit_50_dp"
-            android:layout_marginStart="@dimen/unit_20_dp"
-            android:layout_marginEnd="@dimen/unit_20_dp"
-            android:layout_height="wrap_content"/>
+                <ImageView
+                        android:layout_margin="@dimen/unit_10_dp"
+                        android:layout_width="@dimen/unit_50_dp"
+                        android:src="@drawable/bg_orange_circle"
+                        android:layout_height="@dimen/unit_50_dp"/>
 
-    <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_height="wrap_content">
+                <ImageView
+                        android:layout_width="@dimen/unit_50_dp"
+                        android:src="@drawable/bg_green_circle"
+                        android:layout_height="@dimen/unit_50_dp"/>
+            </LinearLayout>
 
-        <ImageView
-                android:layout_width="@dimen/unit_50_dp"
-                android:src="@drawable/basketball"
-                android:layout_height="@dimen/unit_50_dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:text="Icons for dark theme"
+                    android:textSize="@dimen/unit_20_sp"
+                    android:layout_marginTop="@dimen/unit_50_dp"
+                    android:layout_marginStart="@dimen/unit_20_dp"
+                    android:layout_marginEnd="@dimen/unit_20_dp"
+                    android:layout_height="wrap_content"/>
 
-        <ImageView
-                android:layout_margin="@dimen/unit_10_dp"
-                android:layout_width="@dimen/unit_50_dp"
-                android:src="@drawable/clapperboard"
-                android:layout_height="@dimen/unit_50_dp"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
 
-        <ImageView
-                android:layout_width="@dimen/unit_50_dp"
-                android:src="@drawable/cloud_computing"
-                android:layout_height="@dimen/unit_50_dp"/>
-    </LinearLayout>
+                <ImageView
+                        android:layout_width="@dimen/unit_50_dp"
+                        android:src="@drawable/basketball"
+                        android:layout_height="@dimen/unit_50_dp"/>
 
-    <TextView
-            android:layout_width="match_parent"
-            android:text="Text for dark theme"
-            android:textSize="@dimen/unit_20_sp"
-            android:layout_marginTop="@dimen/unit_50_dp"
-            android:layout_marginStart="@dimen/unit_20_dp"
-            android:layout_marginEnd="@dimen/unit_20_dp"
-            android:layout_height="wrap_content"/>
+                <ImageView
+                        android:layout_margin="@dimen/unit_10_dp"
+                        android:layout_width="@dimen/unit_50_dp"
+                        android:src="@drawable/clapperboard"
+                        android:layout_height="@dimen/unit_50_dp"/>
 
-    <TextView
-            android:layout_width="match_parent"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            android:layout_marginEnd="@dimen/unit_20_dp"
-            android:layout_marginStart="@dimen/unit_20_dp"
-            android:layout_height="wrap_content"/>
+                <ImageView
+                        android:layout_width="@dimen/unit_50_dp"
+                        android:src="@drawable/cloud_computing"
+                        android:layout_height="@dimen/unit_50_dp"/>
+            </LinearLayout>
 
-    <Button
-            android:id="@+id/btnForceDark"
-            android:layout_width="match_parent"
-            android:text="Force Dark Activity"
-            android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:text="Text for dark theme"
+                    android:textSize="@dimen/unit_20_sp"
+                    android:layout_marginTop="@dimen/unit_50_dp"
+                    android:layout_marginStart="@dimen/unit_20_dp"
+                    android:layout_marginEnd="@dimen/unit_20_dp"
+                    android:layout_height="wrap_content"/>
 
-    <Button
-            android:id="@+id/btnElevation"
-            android:layout_width="match_parent"
-            android:text="Elevation Activity"
-            android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+                    android:layout_marginEnd="@dimen/unit_20_dp"
+                    android:layout_marginStart="@dimen/unit_20_dp"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/btnWebView"
+                    android:layout_width="match_parent"
+                    android:text="WebView Activity"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/btnForceDark"
+                    android:layout_width="match_parent"
+                    android:text="Force Dark Activity"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/btnElevation"
+                    android:layout_width="match_parent"
+                    android:text="Elevation Activity"
+                    android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/dayNightToggleButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|end"
+            app:borderWidth="0dp"
+            android:foregroundGravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/float_btn_color"
             android:layout_margin="16dp"
+            android:src="@drawable/ic_round_daynight"
             />
 
-
-</LinearLayout>
+</RelativeLayout>

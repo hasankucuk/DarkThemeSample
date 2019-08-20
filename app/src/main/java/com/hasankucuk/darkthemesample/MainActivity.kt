@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
             it.setSelectedIfDarkTheme()
         }
 
+        btnWebView.setOnClickListener { startActivity(Intent(this, WebViewActivity::class.java)) }
+
         btnForceDark.setOnClickListener { startActivity(Intent(this, ForceDarkActivity::class.java)) }
 
         btnElevation.setOnClickListener { startActivity(Intent(this, ElevationActivity::class.java)) }
